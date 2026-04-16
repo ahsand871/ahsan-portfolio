@@ -3,8 +3,8 @@
   max-width: var(--cMaxWidth);
   width: var(--cWidth);
   justify-content: space-between;
-  padding: 20px 0px;
-  margin-bottom: -100px;
+  padding: 0px 0px;
+  margin-bottom: 0px;
   box-sizing: border-box;
   position: fixed;
   left: 50%;
@@ -19,7 +19,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  column-gap: 40px;
+  column-gap: 20px;
   row-gap: 8px;
   align-items: end;
 }
@@ -94,7 +94,7 @@
 }
 @media only screen and (min-width: 1200px) {
   .header {
-    padding: 35px 0px;
+    padding:0px;
   }
   .header ul {
     column-gap: 80px;
