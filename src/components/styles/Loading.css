@@ -9,14 +9,13 @@
   place-items: center;
   justify-content: center;
 }
-.initials-logo {
+.initials-loading {
   font-size: 30px;
   font-weight: 800;
   letter-spacing: 1px;
 
-  color: black; /* primary color */
+  color: black; 
 
-  /* Glow effect */
   text-shadow:
     0 0 5px rgba(99, 102, 241, 0.6),
     0 0 10px rgba(99, 102, 241, 0.4),
@@ -27,7 +26,7 @@
 }
 
 /* Hover effect */
-.initials-logo:hover {
+.initials-loading:hover {
   text-shadow:
     0 0 8px rgba(99, 102, 241, 0.9),
     0 0 18px rgba(99, 102, 241, 0.7),
@@ -378,6 +377,31 @@
   .loader-title {
     font-size: 16px;
   }
+  .initials-loading {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 1px;
+
+  color: black; 
+
+  text-shadow:
+    0 0 5px rgba(99, 102, 241, 0.6),
+    0 0 10px rgba(99, 102, 241, 0.4),
+    0 0 20px rgba(99, 102, 241, 0.3);
+
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.initials-loading:hover {
+  text-shadow:
+    0 0 8px rgba(99, 102, 241, 0.9),
+    0 0 18px rgba(99, 102, 241, 0.7),
+    0 0 30px rgba(99, 102, 241, 0.5);
+
+  transform: scale(1.1);
+}
 }
 @media only screen and (min-width: 1200px) {
   .loading-header {
