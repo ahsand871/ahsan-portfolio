@@ -16,8 +16,8 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>React Intern</h4>
-                <h5>Remote</h5>
+                <h4>Full Stack Developer (MERN) Intern</h4>
+                <h5>Cyranix LLC</h5>
               </div>
               <h3>NOW</h3>
             </div>
